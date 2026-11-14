@@ -95,8 +95,11 @@ nav ul a:hover {
 /* ---------- Hero ---------- */
 .hero {
   text-align: center;
-  padding: 100px 24px 90px;
-  background: linear-gradient(180deg, var(--green-soft) 0%, var(--bg) 100%);
+  padding: 120px 24px 110px;
+  background:
+    linear-gradient(rgba(8, 40, 33, 0.72), rgba(8, 40, 33, 0.72)),
+    url('/hero-bg.jpg') center / cover no-repeat;
+  color: #ffffff;
 }
 
 .hero h1 {
@@ -111,7 +114,16 @@ nav ul a:hover {
   max-width: 600px;
   margin: 20px auto 32px;
   font-size: 18px;
-  color: var(--muted);
+  color: #E3EEEA;
+}
+
+.hero .btn {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.hero .btn:hover {
+  background: #F2B63A;
 }
 
 /* ---------- Sections ---------- */
