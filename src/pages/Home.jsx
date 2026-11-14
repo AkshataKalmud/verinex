@@ -6,7 +6,6 @@ function Home() {
   return (
     <main>
       <Hero />
-      <img className="banner" src="/hero-bg.jpg" alt="Person submitting documents online with VERINEX" />
       <Features />
       <HowItWorks />
     </main>
