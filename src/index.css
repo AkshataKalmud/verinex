@@ -95,35 +95,22 @@ nav ul a:hover {
 /* ---------- Hero ---------- */
 .hero {
   text-align: center;
-  padding: 120px 24px 110px;
-  background:
-    linear-gradient(rgba(8, 40, 33, 0.72), rgba(8, 40, 33, 0.72)),
-    url('/hero-bg.jpg') center / cover no-repeat;
-  color: #ffffff;
-}
-
-.hero h1 {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: clamp(32px, 5vw, 54px);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.hero p {
-  max-width: 600px;
-  margin: 20px auto 32px;
-  font-size: 18px;
-  color: #E3EEEA;
-}
-
-.hero .btn {
-  background: var(--accent);
+  padding: 90px 24px 50px;
+  background: linear-gradient(180deg, #E6F2EE 0%, #F6F8F9 100%);
   color: var(--ink);
 }
 
-.hero .btn:hover {
-  background: #F2B63A;
+.hero p {
+  color: var(--muted);
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(18, 32, 43, 0.15);
 }
 
 /* ---------- Sections ---------- */
