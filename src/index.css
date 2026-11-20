@@ -625,3 +625,38 @@ footer p { margin: 0; }
 @media (max-width: 480px) {
   #how ol { grid-template-columns: 1fr; }
 }
+/* ---------- Background for "What VERINEX does" ---------- */
+#features {
+  max-width: none;
+  margin: 0;
+  padding: 90px max(24px, calc((100% - 1100px) / 2));
+  background: linear-gradient(135deg, #245484 0%, #813a65 100%);
+}
+/* ---------- How it works: new background ---------- */
+.how {
+  background: linear-gradient(135deg, #467079 0%, #48737e 100%);
+}
+
+.how .section-sub {
+  color: #B7CED6;
+}
+
+.step p {
+  color: #B7CED6;
+}
+/* ---------- Features background (final) ---------- */
+#features {
+  background: linear-gradient(180deg, #4a797d 0%, #446370 100%) !important;
+}
+/* ---------- Features: readable text on dark background ---------- */
+#features > .eyebrow {
+  color: #F2B63A !important;
+}
+
+#features > h2 {
+  color: #FFFFFF !important;
+}
+
+#features > .section-sub {
+  color: #E3EEEA !important;
+}
